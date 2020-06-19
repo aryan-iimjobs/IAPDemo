@@ -15,12 +15,23 @@ import Foundation
 
 /// A structure of messages that will be displayed to users.
 struct Messages {
-    static let deferred = "Allow the user to continue using your app."
-    static let unknownPaymentTransaction = "Unknown payment transaction case."
-    static let purchaseOf = "Purchase of"
-    static let error = "Error: "
-    static let failed = "failed."
+    static let appStoreIdentiferDidnotMatch = "Product Identifier from the App Store didn't match with local identifer."
+    static let cannotMakePayments = "\(notAuthorized) \(installing)"
     static let couldNotFind = "Could not find resource file:"
+    static let deliverContent = "Deliver content for"
+    static let deferred = "Allow the user to continue using your app."
+    static let error = "Error: "
+    static let emptyString = ""
+    static let failed = "failed."
+    static let installing = "In-App Purchases may be restricted on your device."
+    static let notAuthorized = "You are not authorized to make payments."
+    static let okButton = "OK"
+    static let purchaseOf = "Purchase of"
+    static let purchaseStatus = "Purchase Status"
+    static let productRequestStatus = "Product Request Status"
+    static let removed = "was removed from the payment queue."
+    static let status = "Status"
+    static let unknownPaymentTransaction = "Unknown payment transaction case."
     static let updateResource = "Update it with your product identifiers to retrieve product information."
 }
 
